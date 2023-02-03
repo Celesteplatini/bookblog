@@ -90,6 +90,15 @@ main div .imgresena1{
     height: 10rem;
 }
 
+/*seccion novedades*/
+main .noticiauno, .noticiados, .noticiatres, .noticiacuatro, .noticiacinco, .noticiaseis{
+    background-color: #E0C5B4;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*seccion contacto*/
 main fieldset{
     margin: 2rem;
