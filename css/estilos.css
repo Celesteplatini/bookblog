@@ -89,6 +89,12 @@ main div .imgresena1{
     width: 8rem;
     height: 10rem;
 }
+.puntuacion{
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+    color: rgb(173, 156, 57);
+}
 
 /*seccion novedades*/
 main .noticiauno, .noticiados, .noticiatres, .noticiacuatro, .noticiacinco, .noticiaseis{
@@ -97,6 +103,8 @@ main .noticiauno, .noticiados, .noticiatres, .noticiacuatro, .noticiacinco, .not
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 /*seccion contacto*/
