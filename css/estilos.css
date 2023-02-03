@@ -33,26 +33,6 @@ header nav ul li:hover{
 /*seccion home*/
 
 /*estilos de main*/
-.logo, .subtitulo, .parrafo-inicial{
-    text-align: center;
-    margin: 0.7rem;
-}
-.img-main1, .img-main2, .img-main3, .img-main4{
-    width: 15rem;
-    height: 15rem;
-    object-fit: cover;
-}
-.img-main1, .img-main3{
-    display: none;
-}
-.imagenes-main{
-    display: flex;
-    justify-content: center;
-}
-.logo{
-    height: 10rem;
-    width: 20rem;
-}
 
 
 /*seccion top10*/
@@ -134,9 +114,6 @@ footer h3{
     }
 
     /*seccion home*/
-    .img-main1{
-        display: block;
-    }
     
     /*seccion top10*/
     .topmejorescontenedora{
@@ -162,30 +139,6 @@ footer h3{
     }
 
     /*seccion home*/
-    .img-main3{
-        display: block;
-    }
-    .imagenes-main{
-        margin: 0.7rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        height: 20rem;
-        align-items: center;
-        gap: 0.5rem;
-    }
-    .main-home{
-        display: flex;
-    }
-    .textomain{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-    .logo{
-        height: 15rem;
-        width: 30rem;
-    }
 
     /*seccion top10*/
     .topmejorescontenedora{
