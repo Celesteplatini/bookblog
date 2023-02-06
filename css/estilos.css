@@ -13,11 +13,7 @@ body{
 }
 
 /*seccion home*/
-.textomain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 /*seccion top10*/
 .titulotopten{
