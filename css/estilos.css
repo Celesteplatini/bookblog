@@ -12,8 +12,6 @@ body{
     font-family: 'Merriweather', serif;
 }
 
-/*estilos del header*/
-
 /*seccion home*/
 .textomain{
     display: flex;
@@ -99,9 +97,22 @@ main .noticiauno:hover, .noticiados:hover, .noticiatres:hover, .noticiacuatro:ho
 }
 
 /*seccion contacto*/
+.titulocontacto{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
 main fieldset{
     margin: 2rem;
     padding: 1rem;
+}
+.parrafocontacto{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #E0C5B4;
+}
+.redescontacto{
+    margin: 1rem;
 }
 
 /*estilos de footer*/
@@ -125,6 +136,14 @@ footer h3{
         flex-direction: row;
         gap: 1rem;
         align-items: center;
+    }
+
+    /*seccion contacto*/
+    .cuerpocontacto{
+        display: flex;
+    }
+    .parrafocontacto{
+        width: 45rem;
     }
 }
 
