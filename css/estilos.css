@@ -32,11 +32,7 @@ header nav ul li:hover{
 
 /*seccion home*/
 
-/*estilos de main*/
-
-
 /*seccion top10*/
-
 .titulotopten{
     text-align: center;
     margin: 1rem;
@@ -54,6 +50,9 @@ header nav ul li:hover{
 }
 .topmejorescontenedora{
     justify-content: center;
+}
+main div ol li{
+    list-style: none;
 }
 
 
@@ -86,6 +85,7 @@ main .noticiauno, .noticiados, .noticiatres, .noticiacuatro, .noticiacinco, .not
     align-items: center;
     gap: 1rem;
     padding: 1rem;
+    border-radius: 0.5rem
 }
 
 /*seccion contacto*/
@@ -110,13 +110,8 @@ footer h3{
 @media screen and (min-width:600px){
     /*header*/
     header nav ul{
-        background-color: aquamarine;
         gap: 4rem;
     }
-
-    /*seccion home*/
-    
-    /*seccion top10*/
 
     /*seccion reseñas*/
     main div .resenauno, .resenados, .resenatres, .resenacuatro{
@@ -133,10 +128,6 @@ footer h3{
     header nav ul{
         gap: 10rem;
     }
-
-    /*seccion home*/
-
-    /*seccion top10*/
 }
 
 
