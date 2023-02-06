@@ -13,11 +13,13 @@ body{
 }
 
 /*estilos del header*/
-.barra{
-    background-color: #E0C5B4;
-}
 
 /*seccion home*/
+.textomain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*seccion top10*/
 .titulotopten{
@@ -35,6 +37,9 @@ body{
     padding: 1.5rem;
     border-radius: 0.5rem;
 }
+.topmejores:hover{
+    box-shadow: 0 0 0.5rem 0.7rem rgb(255, 255, 255);
+}
 .topmejorescontenedora{
     justify-content: center;
 }
@@ -46,7 +51,7 @@ main div ol li{
 /*seccion reseñas*/
 main div .resenauno, .resenados, .resenatres, .resenacuatro{
     background-color: #E0C5B4;
-    margin: 1rem;
+    margin: 2rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -62,6 +67,15 @@ main div .imgresena1{
     gap: 0.3rem;
     color: rgb(173, 156, 57);
 }
+main div .resenauno:hover, .resenados:hover, .resenatres:hover, .resenacuatro:hover{
+    box-shadow: 0 0 0.5rem 0.7rem rgb(255, 255, 255);
+    scale: 1.02;
+}
+.tituloresenas{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
 
 /*seccion novedades*/
 main .noticiauno, .noticiados, .noticiatres, .noticiacuatro, .noticiacinco, .noticiaseis{
@@ -73,6 +87,15 @@ main .noticiauno, .noticiados, .noticiatres, .noticiacuatro, .noticiacinco, .not
     gap: 1rem;
     padding: 1rem;
     border-radius: 0.5rem
+}
+main .noticiauno:hover, .noticiados:hover, .noticiatres:hover, .noticiacuatro:hover, .noticiacinco:hover, .noticiaseis:hover{
+    box-shadow: 0 0 0.5rem 0.7rem rgb(255, 255, 255);
+    scale: 1.08;
+}
+.textonovedades{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
 }
 
 /*seccion contacto*/
@@ -96,9 +119,6 @@ footer h3{
 /*mq de tablet*/
 @media screen and (min-width:600px){
     /*header*/
-    header nav ul{
-        gap: 4rem;
-    }
 
     /*seccion reseñas*/
     main div .resenauno, .resenados, .resenatres, .resenacuatro{
@@ -109,12 +129,21 @@ footer h3{
 }
 
 /*mq de desktop*/
-@media screen and (min-width:1024px){
+@media screen and (min-width:1000px){
 
     /*header*/
-    header nav ul{
-        gap: 10rem;
+    .barra{
+        display: flex;
+        justify-content: center;
     }
+    .barrauno{
+        gap: 8rem;
+    }
+    .seccion:hover{
+        background-color: #EBE2DD;
+        padding: 0.5rem;
+    }
+    
 }
 
 
