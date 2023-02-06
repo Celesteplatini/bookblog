@@ -13,21 +13,8 @@ body{
 }
 
 /*estilos del header*/
-header{
-    height: 3.5rem;
+.barra{
     background-color: #E0C5B4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-header nav ul{
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-}
-header nav ul li:hover{
-    background-color: #EBE2DD;
-    padding: 0.5rem;
 }
 
 /*seccion home*/
