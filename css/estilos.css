@@ -1,82 +1,110 @@
-/*estilos de pantalla de celu*/
-@media screen and (min-width:320px){
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@charset "UTF-8";
+/*estilos grales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-/*estilos generales*/
-body{
-    background-color: #EBE2DD;
-    font-family: 'Merriweather', serif;
-}
+/*estilos del header*/
+@media screen and (min-width: 1000px) {
+  header {
+    display: flex;
+    justify-content: center; }
+    header nav div div .barrauno {
+      gap: 8rem; }
+      header nav div div .barrauno .seccion:hover {
+        background-color: #E0C5B4;
+        padding: 0.5rem; } }
 
-/*seccion home*/
-.textomain{
+/*estilos del footer*/
+footer {
+  margin: 0.7rem; }
+  footer p {
+    padding: 0.3rem; }
+  footer a img {
+    padding: 0.3rem; }
+
+body {
+  background-color: #EBE2DD;
+  font-family: "Merriweather", serif; }
+
+/*Estilos de home*/
+@media screen and (min-width: 320px) {
+  main .textomain {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    align-items: center; } }
 
-/*seccion top10*/
-.titulotopten{
+@media screen and (min-width: 320px) {
+  main .titulotopten {
     text-align: center;
-    margin: 1rem;
-}
-.imgtop1{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.topmejores{
-    background-color: #E0C5B4;
-    margin: 1rem;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-}
-.topmejores:hover{
-    box-shadow: 0 0 0.5rem 0.7rem rgb(255, 255, 255);
-}
-.topmejorescontenedora{
+    margin: 1rem; }
+  main div .topmejorescontenedora {
+    justify-content: center; }
+    main div .topmejorescontenedora .topmejores {
+      background-color: #E0C5B4;
+      margin: 1rem;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      list-style: none; }
+      main div .topmejorescontenedora .topmejores:hover {
+        box-shadow: 0 0 0.5rem 0.7rem white; }
+      main div .topmejorescontenedora .topmejores .imgtopuno {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; } }
+
+/*Estilos de reseñas*/
+@media screen and (min-width: 320px) {
+  main div .tituloresenas {
+    display: flex;
     justify-content: center;
-}
-main div ol li{
-    list-style: none;
-}
-
-
-/*seccion reseñas*/
-main div .resenauno, .resenados, .resenatres, .resenacuatro{
+    margin: 1rem; }
+  main .resenas .resenauno, main .resenas .resenados, main .resenas .resenatres, main .resenas .resenacuatro {
     background-color: #E0C5B4;
     margin: 2rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-main div .imgresena1{
-    width: 8rem;
-    height: 10rem;
-}
-.puntuacion{
-    display: flex;
-    justify-content: center;
-    gap: 0.3rem;
-    color: rgb(173, 156, 57);
-}
-main div .resenauno:hover, .resenados:hover, .resenatres:hover, .resenacuatro:hover{
-    box-shadow: 0 0 0.5rem 0.7rem rgb(255, 255, 255);
-    scale: 1.02;
-}
-.tituloresenas{
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-}
+    align-items: center; }
+    main .resenas .resenauno:hover, main .resenas .resenados:hover, main .resenas .resenatres:hover, main .resenas .resenacuatro:hover {
+      box-shadow: 0 0 0.5rem 0.7rem white;
+      scale: 1.02;
+      transition: 0.6s; }
+    main .resenas .resenauno div .imgresena1, main .resenas .resenados div .imgresena1, main .resenas .resenatres div .imgresena1, main .resenas .resenacuatro div .imgresena1 {
+      width: 8rem;
+      height: 10rem; }
+    main .resenas .resenauno div .puntuacion, main .resenas .resenados div .puntuacion, main .resenas .resenatres div .puntuacion, main .resenas .resenacuatro div .puntuacion {
+      display: flex;
+      justify-content: center;
+      gap: 0.3rem;
+      color: #ad9c39; } }
 
-/*seccion novedades*/
-main .noticiauno, .noticiados, .noticiatres, .noticiacuatro, .noticiacinco, .noticiaseis{
+@media screen and (min-width: 600px) {
+  main .resenas .resenauno, main .resenas .resenados, main .resenas .resenatres, main .resenas .resenacuatro {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center; }
+  main .resenas .resenados {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center; }
+  main .resenas .resenatres {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center; }
+  main .resenas .resenacuatro {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center; } }
+
+/*Estilos de novedades*/
+@media screen and (min-width: 320px) {
+  main .textonovedades {
+    display: flex;
+    justify-content: center;
+    margin: 1rem; }
+  main ul .noticiauno, main ul .noticiados, main ul .noticiatres, main ul .noticiacuatro, main ul .noticiacinco, main ul .noticiaseis {
     background-color: #E0C5B4;
     margin: 1rem;
     display: flex;
@@ -84,90 +112,30 @@ main .noticiauno, .noticiados, .noticiatres, .noticiacuatro, .noticiacinco, .not
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    border-radius: 0.5rem
-}
-main .noticiauno:hover, .noticiados:hover, .noticiatres:hover, .noticiacuatro:hover, .noticiacinco:hover, .noticiaseis:hover{
-    box-shadow: 0 0 0.5rem 0.7rem rgb(255, 255, 255);
-    scale: 1.08;
-}
-.textonovedades{
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-}
+    border-radius: 0.5rem; }
+    main ul .noticiauno:hover, main ul .noticiados:hover, main ul .noticiatres:hover, main ul .noticiacuatro:hover, main ul .noticiacinco:hover, main ul .noticiaseis:hover {
+      box-shadow: 0 0 0.5rem 0.7rem white;
+      scale: 1.08;
+      transition: 0.6s; } }
 
-/*seccion contacto*/
-.titulocontacto{
+/*estilos contacto*/
+@media screen and (min-width: 320px) {
+  main div .titulocontacto {
     display: flex;
     justify-content: center;
+    margin: 1rem; }
+  main .cuerpocontacto div div .parrafocontacto {
     margin: 1rem;
-}
-main fieldset{
+    padding: 1rem;
+    background-color: #E0C5B4; }
+  main .cuerpocontacto div .redescontacto {
+    margin: 1rem; }
+  main .cuerpocontacto div form fieldset {
     margin: 2rem;
-    padding: 1rem;
-}
-.parrafocontacto{
-    margin: 1rem;
-    padding: 1rem;
-    background-color: #E0C5B4;
-}
-.redescontacto{
-    margin: 1rem;
-}
+    padding: 1rem; } }
 
-/*estilos de footer*/
-footer{
-    margin: 0.7rem;
-}
-footer img{
-    padding: 0.3rem;
-}
-footer h3{
-    padding: 0.3rem;
-}
-}
-
-/*mq de tablet*/
-@media screen and (min-width:600px){
-    /*header*/
-
-    /*seccion reseñas*/
-    main div .resenauno, .resenados, .resenatres, .resenacuatro{
-        flex-direction: row;
-        gap: 1rem;
-        align-items: center;
-    }
-
-    /*seccion contacto*/
-    .cuerpocontacto{
-        display: flex;
-    }
-    .parrafocontacto{
-        width: 45rem;
-    }
-}
-
-/*mq de desktop*/
-@media screen and (min-width:1000px){
-
-    /*header*/
-    .barra{
-        display: flex;
-        justify-content: center;
-    }
-    .barrauno{
-        gap: 8rem;
-    }
-    .seccion:hover{
-        background-color: #EBE2DD;
-        padding: 0.5rem;
-    }
-    
-}
-
-
-
-
-
-
-
+@media screen and (min-width: 600px) {
+  main .cuerpocontacto {
+    display: flex; }
+    main .cuerpocontacto div div .parrafocontacto {
+      width: 45rem; } }

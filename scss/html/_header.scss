@@ -1,0 +1,25 @@
+//import
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
+
+/*estilos del header*/
+@media screen and (min-width:1000px){
+    header{
+        @include flex;
+        nav{
+            div{
+                div{
+                    .barrauno{
+                        gap: 8rem;
+                        .seccion{
+                            &:hover{
+                                background-color: $color-secundario;
+                                padding: 0.5rem;
+                            } 
+                        }
+                    }
+                }
+            }
+        }     
+    }
+}

@@ -1,0 +1,54 @@
+//import
+
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+/*estilos contacto*/
+
+@media screen and (min-width:320px){
+    main{
+        div{
+            .titulocontacto{
+                @include flex;
+                margin: 1rem;
+            }
+        }
+        .cuerpocontacto{
+            div{
+                div{
+                    .parrafocontacto{
+                        margin: 1rem;
+                        padding: 1rem;
+                        background-color: $color-secundario;           
+                    }
+                }
+                .redescontacto{
+                    margin: 1rem;
+                }
+            }
+            div{
+                form{
+                    fieldset{
+                        margin: 2rem;
+                        padding: 1rem;                    
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:600px){
+    main{
+        .cuerpocontacto{
+            display: flex;
+            div{
+                div{
+                    .parrafocontacto{
+                        width: 45rem;
+                    }
+                }
+            }
+        }
+    }
+}

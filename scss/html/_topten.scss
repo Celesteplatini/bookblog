@@ -1,0 +1,32 @@
+//import
+@import "../utilidades/variables";
+
+@media screen and (min-width:320px){
+main{
+    .titulotopten{
+        text-align: center;
+        margin: 1rem;
+    }
+    div{
+        .topmejorescontenedora{
+            justify-content: center;
+            .topmejores{
+                &:hover{
+                    box-shadow: 0 0 0.5rem 0.7rem rgb(255, 255, 255);
+                }
+                background-color: #E0C5B4;
+                margin: 1rem;
+                padding: 1.5rem;
+                border-radius: 0.5rem;
+                list-style: none;
+                .imgtopuno{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }         
+            }
+        }
+    }
+}
+}
