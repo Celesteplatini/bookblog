@@ -2,3 +2,9 @@
     display: flex;
     justify-content: center;
 }
+
+@mixin flexdos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

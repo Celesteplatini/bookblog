@@ -19,6 +19,8 @@
 /*estilos del footer*/
 footer {
   margin: 0.7rem; }
+  footer .textofooter {
+    font-size: 1rem; }
   footer p {
     padding: 0.3rem; }
   footer a img {
@@ -33,12 +35,19 @@ body {
   main .textomain {
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+    main .textomain .subtitulo {
+      font-size: 1.5rem; } }
+
+@media screen and (min-width: 600px) {
+  main .textomain .subtitulo {
+    font-size: 2rem; } }
 
 @media screen and (min-width: 320px) {
   main .titulotopten {
     text-align: center;
-    margin: 1rem; }
+    margin: 1rem;
+    font-size: 1.8rem; }
   main div .topmejorescontenedora {
     justify-content: center; }
     main div .topmejorescontenedora .topmejores {
@@ -59,7 +68,8 @@ body {
   main div .tituloresenas {
     display: flex;
     justify-content: center;
-    margin: 1rem; }
+    margin: 1rem;
+    font-size: 1.8rem; }
   main .resenas .resenauno, main .resenas .resenados, main .resenas .resenatres, main .resenas .resenacuatro {
     background-color: #E0C5B4;
     margin: 2rem;
@@ -78,7 +88,9 @@ body {
       display: flex;
       justify-content: center;
       gap: 0.3rem;
-      color: #ad9c39; } }
+      color: #ad9c39; }
+    main .resenas .resenauno div .titulolibro, main .resenas .resenados div .titulolibro, main .resenas .resenatres div .titulolibro, main .resenas .resenacuatro div .titulolibro {
+      font-size: 1.3rem; } }
 
 @media screen and (min-width: 600px) {
   main .resenas .resenauno, main .resenas .resenados, main .resenas .resenatres, main .resenas .resenacuatro {
@@ -103,7 +115,8 @@ body {
   main .textonovedades {
     display: flex;
     justify-content: center;
-    margin: 1rem; }
+    margin: 1rem;
+    font-size: 1.8rem; }
   main ul .noticiauno, main ul .noticiados, main ul .noticiatres, main ul .noticiacuatro, main ul .noticiacinco, main ul .noticiaseis {
     background-color: #E0C5B4;
     margin: 1rem;
@@ -116,14 +129,24 @@ body {
     main ul .noticiauno:hover, main ul .noticiados:hover, main ul .noticiatres:hover, main ul .noticiacuatro:hover, main ul .noticiacinco:hover, main ul .noticiaseis:hover {
       box-shadow: 0 0 0.5rem 0.7rem white;
       scale: 1.08;
-      transition: 0.6s; } }
+      transition: 0.6s; }
+    main ul .noticiauno .titulonoticiauno, main ul .noticiados .titulonoticiauno, main ul .noticiatres .titulonoticiauno, main ul .noticiacuatro .titulonoticiauno, main ul .noticiacinco .titulonoticiauno, main ul .noticiaseis .titulonoticiauno {
+      font-size: 1.3rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+    main ul .noticiauno .cuerponoticia, main ul .noticiados .cuerponoticia, main ul .noticiatres .cuerponoticia, main ul .noticiacuatro .cuerponoticia, main ul .noticiacinco .cuerponoticia, main ul .noticiaseis .cuerponoticia {
+      display: flex;
+      flex-direction: column;
+      text-align: justify; } }
 
 /*estilos contacto*/
 @media screen and (min-width: 320px) {
   main div .titulocontacto {
     display: flex;
     justify-content: center;
-    margin: 1rem; }
+    margin: 1rem;
+    font-size: 1.8rem; }
   main .cuerpocontacto div div .parrafocontacto {
     margin: 1rem;
     padding: 1rem;
