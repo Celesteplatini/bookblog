@@ -10,11 +10,11 @@
   header {
     display: flex;
     justify-content: center; }
-    header nav div div .barrauno {
-      gap: 8rem; }
-      header nav div div .barrauno .seccion:hover {
-        background-color: #E0C5B4;
-        padding: 0.5rem; } }
+  .barrauno {
+    gap: 8rem; }
+    .barrauno .seccion:hover {
+      background-color: #E0C5B4;
+      padding: 0.5rem; } }
 
 /*estilos del footer*/
 footer {
@@ -37,11 +37,12 @@ body {
     flex-direction: column;
     align-items: center; }
     main .textomain .subtitulo {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem;
+      text-align: center; } }
 
 @media screen and (min-width: 600px) {
   main .textomain .subtitulo {
-    font-size: 2rem; } }
+    font-size: 1.8rem; } }
 
 @media screen and (min-width: 320px) {
   main .titulotopten {
