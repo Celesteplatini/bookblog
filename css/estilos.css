@@ -10,11 +10,11 @@
   header {
     display: flex;
     justify-content: center; }
-  .barrauno {
-    gap: 8rem; }
-    .barrauno .seccion:hover {
-      background-color: #E0C5B4;
-      padding: 0.5rem; } }
+    header nav div div .barrauno {
+      gap: 8rem; }
+      header nav div div .barrauno .seccion:hover {
+        background-color: #EBE2DD;
+        padding: 0.5rem; } }
 
 /*estilos del footer*/
 footer {
