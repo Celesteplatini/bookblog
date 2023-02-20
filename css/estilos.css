@@ -153,7 +153,8 @@ body {
     padding: 1rem;
     background-color: #E0C5B4; }
   main .cuerpocontacto div .redescontacto {
-    margin: 1rem; }
+    margin: 1rem;
+    padding-top: 3rem; }
   main .cuerpocontacto div form fieldset {
     margin: 2rem;
     padding: 1rem; } }
