@@ -72,7 +72,7 @@ body {
     margin: 1rem;
     font-size: 1.8rem; }
   main .resenas .resenauno, main .resenas .resenados, main .resenas .resenatres, main .resenas .resenacuatro {
-    background-color: #E0C5B4;
+    background-color: #e0c5b4;
     margin: 2rem;
     padding: 1rem;
     display: flex;
@@ -119,7 +119,7 @@ body {
     margin: 1rem;
     font-size: 1.8rem; }
   main ul .noticiauno, main ul .noticiados, main ul .noticiatres, main ul .noticiacuatro, main ul .noticiacinco, main ul .noticiaseis {
-    background-color: #E0C5B4;
+    background-color: #e0c5b4;
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -151,13 +151,15 @@ body {
   main .cuerpocontacto div div .parrafocontacto {
     margin: 1rem;
     padding: 1rem;
-    background-color: #E0C5B4; }
+    background-color: #e0c5b4; }
   main .cuerpocontacto div .redescontacto {
     margin: 1rem;
     padding-top: 3rem; }
-  main .cuerpocontacto div form fieldset {
+  main .cuerpocontacto .formulario form fieldset {
     margin: 2rem;
-    padding: 1rem; } }
+    padding: 1rem; }
+    main .cuerpocontacto .formulario form fieldset .completanombre, main .cuerpocontacto .formulario form fieldset .completaemail, main .cuerpocontacto .formulario form fieldset .comentario, main .cuerpocontacto .formulario form fieldset .botonenviar {
+      padding: 1rem; } }
 
 @media screen and (min-width: 600px) {
   main .cuerpocontacto {
